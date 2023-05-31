@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#babblu-pic {
+    width: 300px;
+    border: 6px solid #EFB0C9;
+    border-radius: 20px;
+}
+
+#span-age {
+    border-bottom: 3px solid #EFB0C9;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img{
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/YnBntKOgnUSBkV7bQH/giphy.gif");
+}
+
+#gift-img-sheldon:hover {
+    background-image: url("https://media.giphy.com/media/3ohryD06NMpRUCxsuQ/giphy.gif");
+}
+
+#gift-img-michael:hover {
+    background-image: url("https://media.giphy.com/media/tkApIfibjeWt1ufWwj/giphy.gif");
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/g9582DNuQppxC/giphy-downsized-large.gif");
+}
